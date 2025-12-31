@@ -1,159 +1,226 @@
-# FinSight - Intelligent Money Management
+<h1 align="center">FinSight</h1>
 
-A modern, AI-powered personal finance management platform built with Next.js 15, featuring ML-based predictions, voice input, and comprehensive financial analytics.
+<h2 align="center">Intelligent Money Management Platform</h2>
 
-## 🎯 Features
+<p align="center">
+A modern personal finance management platform offering transaction tracking, budgeting, savings goals,
+voice input, and advanced financial analytics.
+</p>
 
-### 💰 Financial Management
-- **Dashboard Overview**: Real-time account balance, recent transactions, and key financial metrics
-- **Transaction Management**: Add, import (CSV), and categorize transactions with ease
-- **Budget Planner**: Set monthly spending limits per category with smart alerts
-- **Savings Goals**: Track progress towards your financial targets with visual indicators
+<hr/>
 
-### 📊 Analytics & Insights
-- **Interactive Charts**: Monthly trends, category-wise spending, income vs expenses
-- **ML Predictions**: Machine learning-powered expense forecasting
-- **AI Insights**: Personalized financial recommendations and spending analysis
-- **Smart Analytics**: Identify top spending categories and merchants
+<h2>About FinSight</h2>
 
-### 🎤 Modern Features
-- **Voice Input**: Add transactions using natural voice commands
-- **Real-time Sync**: All data updates instantly across all dashboard modules
-- **Dark Mode**: Elegant dark green theme for comfortable viewing
-- **Responsive Design**: Seamless experience across all devices
+<ul>
+  <li>FinSight is a full-stack personal finance management application.</li>
+  <li>It helps users track expenses, manage budgets, and achieve savings goals.</li>
+  <li>The platform provides real-time financial insights and analytics.</li>
+  <li>Voice input enables quick and natural transaction entry.</li>
+  <li>The system is designed for performance, scalability, and usability.</li>
+</ul>
 
-## 🚀 Getting Started
+<hr/>
 
-### Prerequisites
-- Node.js 18+ installed
-- npm, yarn, pnpm, or bun package manager
+<h2>Core Features</h2>
 
-### Installation
+<h3>Financial Management</h3>
+<ul>
+  <li>Dashboard overview showing account balance and recent transactions.</li>
+  <li>Transaction management with manual entry and CSV import.</li>
+  <li>Category-based budgeting with monthly spending limits.</li>
+  <li>Savings goal tracking with visual progress indicators.</li>
+</ul>
 
-1. Clone the repository
-```bash
-git clone <repository-url>
-cd finsight
-```
+<h3>Analytics and Insights</h3>
+<ul>
+  <li>Interactive charts for monthly trends and spending categories.</li>
+  <li>Income versus expense comparison analytics.</li>
+  <li>Machine learning-based expense forecasting.</li>
+  <li>AI-driven insights for personalized spending recommendations.</li>
+</ul>
 
-2. Install dependencies
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-# or
-bun install
-```
+<h3>Modern Capabilities</h3>
+<ul>
+  <li>Voice-based transaction entry using natural language.</li>
+  <li>Real-time synchronization across all dashboard modules.</li>
+  <li>Dark-themed user interface for comfortable viewing.</li>
+  <li>Responsive design optimized for all screen sizes.</li>
+</ul>
 
-3. Set up environment variables
-```bash
-cp .env.example .env
-```
+<hr/>
 
-4. Run database migrations
-```bash
-npm run db:push
-```
+<h2>Application Screenshots</h2>
 
-5. Start the development server
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p align="center">
+User interface demonstrating core financial workflows and analytics.
+</p>
 
-6. Open [http://localhost:3000](http://localhost:3000) in your browser
+<table align="center">
+  <tr>
+    <td align="center">
+      <h3>Welcome Screen</h3>
+      <img src="assets/welcome screen.png" width="480"/>
+    </td>
+    <td align="center">
+      <h3>Login</h3>
+      <img src="assets/login.png" width="480"/>
+    </td>
+  </tr>
 
-## 👥 Demo Accounts
+  <tr>
+    <td align="center">
+      <h3>Home Dashboard</h3>
+      <img src="assets/home.png" width="480"/>
+    </td>
+    <td align="center">
+      <h3>User Profile</h3>
+      <img src="assets/profile.png" width="480"/>
+    </td>
+  </tr>
 
-Use these credentials to test the application:
+  <tr>
+    <td align="center">
+      <h3>Transaction Page</h3>
+      <img src="assets/transaction_page.png" width="480"/>
+    </td>
+    <td align="center">
+      <h3>Manual Transaction Entry</h3>
+      <img src="assets/transction_manually.png" width="480"/>
+    </td>
+  </tr>
 
-- **Aarav Sharma**: aarav@example.com / password123
-- **Priya Verma**: priya@example.com / password123
-- **Rohit Patel**: rohit@example.com / password123
-- **Sneha Iyer**: sneha@example.com / password123
+  <tr>
+    <td align="center">
+      <h3>Budget Planner</h3>
+      <img src="assets/Budget Planner.png" width="480"/>
+    </td>
+    <td align="center">
+      <h3>Savings Goal</h3>
+      <img src="assets/saving_goal.png" width="480"/>
+    </td>
+  </tr>
 
-## 🛠️ Tech Stack
+  <tr>
+    <td align="center">
+      <h3>Crypto Tracker</h3>
+      <img src="assets/crypto tracker.png" width="480"/>
+    </td>
+    <td align="center">
+      <h3>Voice Input</h3>
+      <img src="assets/voice.png" width="480"/>
+    </td>
+  </tr>
+</table>
 
-- **Framework**: Next.js 15 (App Router)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS v4
-- **UI Components**: Shadcn/UI + Radix UI
-- **Database**: Turso (SQLite)
-- **ORM**: Drizzle ORM
-- **Charts**: Recharts
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
+<hr/>
 
-## 📁 Project Structure
+<h2>Technology Stack</h2>
 
-```
+<h3>Frontend</h3>
+<ul>
+  <li>Next.js 15 (App Router)</li>
+  <li>TypeScript</li>
+  <li>Tailwind CSS v4</li>
+  <li>Shadcn/UI and Radix UI</li>
+</ul>
+
+<h3>Backend</h3>
+<ul>
+  <li>Next.js API Routes</li>
+  <li>Drizzle ORM</li>
+</ul>
+
+<h3>Database</h3>
+<ul>
+  <li>Turso (SQLite)</li>
+</ul>
+
+<h3>Additional Libraries</h3>
+<ul>
+  <li>Recharts for data visualization</li>
+  <li>Framer Motion for animations</li>
+  <li>Lucide React for icons</li>
+</ul>
+
+<hr/>
+
+<h2>Project Structure</h2>
+
+<pre>
 finsight/
 ├── src/
-│   ├── app/              # Next.js app router pages
-│   │   ├── api/          # API routes
-│   │   ├── page.tsx      # Homepage
-│   │   └── layout.tsx    # Root layout
-│   ├── components/       # React components
-│   │   └── ui/           # Shadcn UI components
-│   ├── contexts/         # React context providers
-│   ├── db/               # Database schema and seeds
-│   ├── lib/              # Utility functions
-│   └── types/            # TypeScript type definitions
-├── public/               # Static assets
-└── drizzle/              # Database migrations
-```
+│   ├── app/
+│   │   ├── api/
+│   │   ├── page.tsx
+│   │   └── layout.tsx
+│   ├── components/
+│   │   └── ui/
+│   ├── contexts/
+│   ├── db/
+│   ├── lib/
+│   └── types/
+├── public/
+└── drizzle/
+</pre>
 
-## 🎨 Key Features Explained
+<hr/>
 
-### Real-Time Data Synchronization
-All dashboard modules are connected through a global `DataRefreshContext` that ensures instant updates across:
-- Transaction additions (manual, voice, CSV)
-- Budget modifications
-- Savings goal updates
-- Analytics and predictions
+<h2>Key Feature Explanation</h2>
 
-### Voice Input
-Powered by Web Speech API, allowing natural language transaction entry like:
-- "Add 500 rupees spent on groceries today"
-- "I paid 1200 for electricity bill"
+<h3>Real-Time Data Synchronization</h3>
+<ul>
+  <li>Uses a global data refresh context.</li>
+  <li>Ensures instant updates across all modules.</li>
+  <li>Synchronizes transactions, budgets, goals, and analytics.</li>
+</ul>
 
-### ML Predictions
-Uses linear regression to forecast future expenses based on historical transaction patterns.
+<h3>Voice Input</h3>
+<ul>
+  <li>Powered by the Web Speech API.</li>
+  <li>Supports natural language transaction commands.</li>
+  <li>Reduces manual data entry effort.</li>
+</ul>
 
-## 📊 Database Management
+<hr/>
 
-Access the database studio to manage your data:
-- Click the "Database Studio" tab in the top navigation
-- View and edit users, transactions, budgets, and savings goals
+<h2>Database Management</h2>
 
-## 🔐 Security Note
+<ul>
+  <li>Integrated database studio for data inspection.</li>
+  <li>Supports management of users, transactions, budgets, and goals.</li>
+  <li>Ensures consistent schema and migration handling.</li>
+</ul>
 
-This is a demo application with simplified authentication. For production use:
-- Implement proper password hashing (bcrypt)
-- Add JWT or session-based authentication
-- Enable HTTPS
-- Add rate limiting
-- Implement CSRF protection
+<hr/>
 
-## 📝 License
+<h2>Security Considerations</h2>
 
-This project is open source and available under the MIT License.
+<ul>
+  <li>This project is a demonstration application.</li>
+  <li>Authentication is simplified for development purposes.</li>
+  <li>Production deployment should include secure password hashing.</li>
+  <li>Token-based authentication and HTTPS should be implemented.</li>
+  <li>Additional protections such as rate limiting and CSRF prevention are recommended.</li>
+</ul>
 
-## 🤝 Contributing
+<hr/>
 
-Contributions, issues, and feature requests are welcome!
+<h2>Why FinSight Stands Out</h2>
 
-## 📧 Support
+<ul>
+  <li>Demonstrates advanced full-stack development using Next.js.</li>
+  <li>Combines finance, analytics, and modern UI practices.</li>
+  <li>Implements real-time state synchronization.</li>
+  <li>Integrates voice input and machine learning concepts.</li>
+</ul>
 
-For support, email [your-email] or open an issue in the repository.
+<p>
+Suitable for:
+</p>
 
----
-
-Built with ❤️ using Next.js and TypeScript
+<ul>
+  <li>Internship evaluations</li>
+  <li>Technical interviews</li>
+  <li>Portfolio projects</li>
+  <li>Advanced academic submissions</li>
+</ul>
